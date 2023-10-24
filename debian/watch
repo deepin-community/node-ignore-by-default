@@ -1,0 +1,5 @@
+version=4
+opts=\
+dversionmangle=auto,\
+filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-ignore-by-default-$1/ \
+ https://github.com/novemberborn/ignore-by-default/tags .*/archive/.*/v?([\d\.]+).tar.gz
